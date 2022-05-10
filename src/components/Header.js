@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import React from 'react'
 import '../styles/Header.scss'
 
@@ -8,9 +10,14 @@ const Header = () => {
         <span className='blue-title'> Stacey Louis.</span></h1>
 
       <h2 className="sub-title">A Full Stack Developer.</h2>
-      <p className='desc'>Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.</p>
+      <p className='desc'>I am passionate about coding! I spend my days practicing my skills and building more experience as a Developer.
+      I am currently working on Python and animation </p>
 
+<div className='btn-group'>
       <button className='resume-btn'>resume</button>
+      <a href='https://github.com/StaceyLouis' target="_blank"><FontAwesomeIcon icon={faGithub} className="btn-icon"/> </a>
+      <a href='https://www.linkedin.com/in/stacey-louis/' target="_blank"><FontAwesomeIcon icon={faLinkedin} className="btn-icon"/> </a>
+      </div>
     </div> 
   )
 }
