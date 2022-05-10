@@ -1,17 +1,18 @@
 import React from 'react'
+import '../styles/Nav.scss'
 
 const Nav = () => {
   return (
-    <div>
+    <div className='nav'>
       <div className='header-icon'>
-        <h1>SL</h1>
+        <h1 className='logo'>SL.</h1>
       </div>
-      <div>
+      <div className='nav-items'>
         <a href='#projects'>projects</a>
         <a href='#skills'>skills</a>
         <a href='#contact'>contact</a>
       </div>
-    </div>
+    </div> 
   )
 }
 

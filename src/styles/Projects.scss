@@ -1,0 +1,55 @@
+.projects{
+    padding: 4rem;
+    width: 100vw;
+}
+
+.proj-title{
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: var(--main-font-color);
+}
+
+.card-container{
+    display: flex;
+    margin: 1rem;
+    flex-flow: row wrap;
+}
+.card{
+    width: 35%;
+    padding: 2rem;
+    margin: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.9rem 0.1rem rgba(0, 0, 0, 0.118);
+    color: var(--main-font-color);
+    p{
+        padding: 0.5rem 1rem 2rem 1rem;
+    }
+ 
+    &:hover{
+        margin-top: 2rem;
+    }
+
+}
+.card-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding:  1rem 1rem 2rem 1rem;
+    color: var(--main-font-color);
+    &:hover{
+        color: var(--accent-color);
+    }
+}
+.icons-container{
+    display: flex;
+    justify-content: center;
+    a{
+        text-decoration: none;
+        color: var(--main-font-color);
+    }
+}
+.icons{
+    margin: 1rem;
+    font-size: 2rem;
+    &:hover{
+        color: var(--accent-color);
+    }
+}

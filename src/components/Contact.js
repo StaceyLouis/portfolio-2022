@@ -1,10 +1,12 @@
 import React from 'react'
+import '../styles/Contact.scss'
 
 const Contact = () => {
   return (
     <div className='contact' id="contact">
-      <button className='email-btn'>email me</button>
-    </div>
+      <h1>CONTACT</h1>
+      <button className='email-btn'><a href="mailto:staceylouis@icloud.com">email me</a></button>
+    </div> 
   )
 }
 
