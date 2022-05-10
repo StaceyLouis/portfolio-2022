@@ -2,7 +2,9 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div>
+      Developed by <a href="#" target="_blank">Stacey Louis</a>
+    </div>
   )
 }
 
